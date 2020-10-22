@@ -3,67 +3,68 @@
   margin: 0;
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
   color: #21c8b6;
 }
-body{
+body {
   background: url("https://image.freepik.com/free-vector/abstract-blue-square-pattern-design-futuristic-design-artwork-background_38782-1463.jpg");
 }
-#heading{
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-position: absolute;
-left: 45%;
-top: 5%;
+#heading {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  left: 44%;
+  top: 4%;
 }
-h3{
+h3 {
   color: #21c8b6;
+  font-size: 33px;
 }
-#credits{
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-position: absolute;
-right: 5%;
-bottom: 5%;
+#credits {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
 }
-#credits:hover{
-  font-size: 20px;
+#credits:hover {
+  font-size: 35px;
 }
 
 #container {
-  max-width: 600px;
-  height: 400px;
-  margin: 100px auto;
-  box-shadow: 0 0 6px 3px #1067ca;
+  max-width: 950px;
+  height: 650px;
+  margin: 120px auto;
   display: grid;
+  box-shadow: 0 0 16px 10px #1067ca;
 }
-#colors{
+#colors {
   position: absolute;
   display: none;
 }
 
 #button-container {
   border: none;
-  width: 350px;
+  width: 500px;
   display: flex;
   justify-content: space-between;
   position: absolute;
   left: 36%;
-  bottom: 10%;
+  bottom: 9%;
 }
 
 #button-container button {
-  padding: 3px;
+  padding: 10px;
   background: linear-gradient(0deg, rgba(42, 230, 120, 1) 0%, rgba(31, 194, 196, 1) 100%);
-  transition:  .4s;
+  transition: 0.4s;
   border-radius: 5px;
-  font-size: 12px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
 }
-#button-container button:hover{
+#button-container button:hover {
   border-radius: 12px;
-  box-shadow: 0 4px 2px rgba(31, 32, 32, .5);
+  box-shadow: 0 12px 12px rgba(14, 223, 195, 0.8);
 }
 
 .blocks {

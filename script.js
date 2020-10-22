@@ -1,7 +1,7 @@
 let container = document.querySelector("#container");
 
 // default size of block of divs
-let input = 42;
+let input = 36;
 let allBlocks;
 
 // create group of n*m block of divs,logic! specify grid(row*column) = user(input*input) and create user(input)^2 divs
