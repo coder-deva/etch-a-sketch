@@ -58,7 +58,6 @@ let erase = () => {
   );
 };
 
-
 let eraser = document.querySelector("#eraser");
 eraser.addEventListener("click", erase);
 
@@ -75,13 +74,10 @@ let rainbowColors = () => {
 let rainbow = document.querySelector("#rainbow");
 rainbow.addEventListener("click", rainbowColors);
 
-
-
 let value;
 let searchForColor = () =>{
    value = colorPicker.value;
 }
-
 // Color picker,logic! paint btn click=>clicks the colorPicker,runs search for the selected color every 500ms
 let colorPicker = document.querySelector("#colors");
 let colors = () => {
@@ -96,3 +92,4 @@ let colors = () => {
 
 let paint = document.querySelector("#paint");
 paint.addEventListener("click", colors);
+
